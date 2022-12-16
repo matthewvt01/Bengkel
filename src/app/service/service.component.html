@@ -1,0 +1,29 @@
+<button type="button" class="btn btn-primary">Create</button>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">no</th>
+        <th scope="col">judul</th>
+        <th scope="col">tempat</th>
+        <th scope="col">deskripsi</th>
+        <th scope="col">Tgl Pengabdian</th>
+        <th scope="col">Dosen</th>
+        <th scope="col">mahasiswa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pen of service; let i = index;">
+        <th scope="row">{{i+1}}</th>
+        <td>{{pen.judul}}</td>
+        <td>{{pen.tempat}}</td>
+        <td>{{pen.deskripsi}}</td>
+        <td>{{pen.tgl_pengabdian}}</td>
+        <td>{{pen.dosen}}</td>
+        <td>{{pen.mahasiswa}}</td>
+        <td>
+            <button type="button" class="btn btn-warning">edit</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
