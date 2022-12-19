@@ -2,24 +2,25 @@
 <table class="table">
     <thead>
       <tr>
-        <th scope="col">no</th>
-        <th scope="col">judul</th>
-        <th scope="col">tempat</th>
-        <th scope="col">deskripsi</th>
-        <th scope="col">Tgl Pengabdian</th>
-        <th scope="col">Dosen</th>
-        <th scope="col">mahasiswa</th>
+        <th scope="col">Shockbreaker</th>
+        <th scope="col">Velg</th>
+        <th scope="col">Power Steering</th>
+        <th scope="col">Balancing</th>
+        <th scope="col">Ganti Oli</th>
+        <th scope="col">Ganti Ban</th>
+        <th scope="col">Kaca Film</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let pen of service; let i = index;">
         <th scope="row">{{i+1}}</th>
-        <td>{{pen.judul}}</td>
-        <td>{{pen.tempat}}</td>
-        <td>{{pen.deskripsi}}</td>
-        <td>{{pen.tgl_pengabdian}}</td>
-        <td>{{pen.dosen}}</td>
-        <td>{{pen.mahasiswa}}</td>
+        <td>{{pen.Shockbreaker}}</td>
+        <td>{{pen.Velg}}</td>
+        <td>{{pen.Power_Steering}}</td>
+        <td>{{pen.Balancing}}</td>
+        <td>{{pen.Ganti_Oli}}</td>
+        <td>{{pen.Ganti_Ban}}</td>
+        <td>{{pen.Kaca_Film}}</td>
         <td>
             <button type="button" class="btn btn-warning">edit</button>
             <button type="button" class="btn btn-danger">Delete</button>

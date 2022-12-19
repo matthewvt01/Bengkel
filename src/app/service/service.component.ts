@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ServiceDataService } from '../service-data.service';
 
 export class Service {
-  '_id' : string;
-  'judul' : string;
-  'tempat' : string;
-  'deskripsi' : string;
-  'tgl_pengabdian' : any;
-  'dosen' : string;
-  'mahasiswa' : string[];
+  'Shockbreaker' : string;
+  'Velg' : string;
+  'Power_Steering' : string;
+  'Balancing' : string;
+  'Ganti_Oli' : string;
+  'Ganti_Ban' : string;
+  'Kaca_Film' : string;
 }
 @Component({
   selector: 'app-service',
